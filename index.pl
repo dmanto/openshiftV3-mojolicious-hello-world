@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use Mojolicious::Lite;
 
-@ARGV = qw(daemon --listen http://*:8080);
+@ARGV = qw(daemon --listen http://*:8443);
 # Documentation browser under "/perldoc"
 plugin 'PODRenderer';
 
